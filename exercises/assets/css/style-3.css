@@ -1,0 +1,59 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { line-height: 1.5; min-height: 100vh }
+@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
+@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
+img { width: 100%; height: auto; display: block }
+input, button, textarea, select { font: inherit }
+
+/* Desktops/Laptops */
+@media (min-width: 768px) { h1 {color:blue}
+    body { padding: 4% 20% } 
+    
+  }
+  
+  /* Mobiles */
+  @media (max-width: 767px) { h1 {color:red}
+    body { padding: 12% 8% } 
+  
+  }
+
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+p { 
+    font-size: 15px;
+    margin-bottom: 16px
+}
+
+.section-1{
+  background-color: lemonchiffon;
+
+}
+
+.section-2{
+  background-color: lightgreen;
+}
+
+.section-3{
+  background-color: bisque;
+}
+
+.section-4{
+  background-color: rgb(32, 204, 138);
+}
+
+.section-5{
+  background-color: lightcoral;
+}
