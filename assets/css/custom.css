@@ -1,0 +1,11 @@
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+.section-selector-1.theme-light { background-color: var(--cyan-200) }
+header.theme-light { background-color: var(--rose-300) }
+header.theme-light h1 { color: var(--trend-900) }
+header.theme-light h1 span.highlight { color: var(--amber-300) }
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { background-color: var(--black-000) }
+
